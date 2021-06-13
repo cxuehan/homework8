@@ -1,6 +1,6 @@
 .navigation{
     height: 70px;
-    width: 100%;
+    width: 1850px;;
     display: flex;
     background: black;
     justify-content: space-around;
@@ -166,7 +166,7 @@
 }
 .audio{
     height: 50px;
-    width: 300px;
+    width: 650px;
     position: absolute;
     left: 1200px;
     top: 600px;
@@ -589,10 +589,16 @@
 .paging span:nth-child(n){
     width: 25px;
     height: 25px;
-    background-color: gold;
+    background-color: rgba(200, 200, 200, 0.6);
     text-align: center;
     line-height: 25px;
     font-size: 18px;
-    color: white;
     border-radius: 50%;
+}
+.paging span:nth-child(2){
+    background: gold;
+    color: white;
+}
+.paging span:nth-child(5){
+    background: white;
 }
